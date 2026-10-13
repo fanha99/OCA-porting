@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reconcile_analytic_tag
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model,name:account_reconcile_analytic_tag.model_account_reconcile_abstract
+msgid "Account Reconcile Abstract"
+msgstr "Đối chiếu kế toán (lớp trừu tượng)"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_bank_statement_line__manual_analytic_tag_ids
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_reconcile_model_line__analytic_tag_ids
+msgid "Analytic Tags"
+msgstr "Thẻ phân tích"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.module.module,shortdesc:base.module_account_reconcile_analytic_tag
+msgid "Analytic tags in account reconciliation"
+msgstr "Thẻ phân tích trong đối chiếu kế toán"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model,name:account_reconcile_analytic_tag.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Dòng sao kê ngân hàng"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_reconcile_abstract__display_name
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_reconcile_model_line__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_reconcile_abstract__id
+#: model:ir.model.fields,field_description:account_reconcile_analytic_tag.field_account_reconcile_model_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reconcile_analytic_tag
+#: model:ir.model,name:account_reconcile_analytic_tag.model_account_reconcile_model_line
+msgid "Rules for the reconciliation model"
+msgstr "Quy tắc dành cho mẫu đối chiếu"

@@ -1,0 +1,18 @@
+import {Component, useProps} from "@odoo/owl";
+import {Chatter} from "@mail/chatter/web_portal_project/chatter";
+import {registry} from "@web/core/registry";
+import {standardFieldProps} from "@web/views/fields/standard_field_props";
+
+export class AccountReconcileChatterWidget extends Component {
+    static template = "account_reconcile_oca.AccountReconcileChatterWidget";
+    static components = {Chatter};
+    props = useProps({...standardFieldProps});
+}
+
+export const AccountReconcileChatterWidgetField = {
+    component: AccountReconcileChatterWidget,
+    supportedTypes: ["many2one"],
+};
+registry
+    .category("fields")
+    .add("account_reconcile_oca_chatter", AccountReconcileChatterWidgetField);
